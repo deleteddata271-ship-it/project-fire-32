@@ -64,16 +64,7 @@ public sealed partial class ResearchSystem
 
         if (!CanRun(uid))
             return;
-
-        var pointsPerSeconds = GetPointsPerSecond(uid, component);
-
-        foreach (var (pointType, value) in pointsPerSeconds)
-        {
-            pointsPerSeconds[pointType] += value * time;
-        }
-
-
-        ModifyServerPoints(uid, pointsPerSeconds, false, component);
+        ModifyServerResearchPoints(uid, GetPointsPerSecond(uid, component) * time, component); // Sunrise-Edit
     }
 
     /// <summary>
