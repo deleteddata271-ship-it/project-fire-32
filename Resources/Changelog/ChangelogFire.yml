@@ -10542,3 +10542,11 @@
   id: 439
   time: '2026-05-17T13:36:33.0000000+00:00'
   url: https://github.com/space-sunrise/project-fire/pull/1000
+- author: privet
+  changes:
+  - message: "\u0438\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0440\u0430\u0437\
+      \u043C\u0435\u0440 SCP-018"
+    type: Fix
+  id: 440
+  time: '2026-05-17T14:51:05.0000000+00:00'
+  url: https://github.com/space-sunrise/project-fire/pull/999
