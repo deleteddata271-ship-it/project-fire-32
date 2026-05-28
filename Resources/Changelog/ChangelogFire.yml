@@ -10648,3 +10648,13 @@
   id: 450
   time: '2026-05-28T21:02:29.0000000+00:00'
   url: https://github.com/space-sunrise/project-fire/pull/1022
+- author: Wardex
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043D\u043E\u0432\u044B\
+      \u0439 \u0440\u0435\u0436\u0438\u043C \u041D\u0430\u043B\u0451\u0442\u0430 \u041F\
+      \u043E\u0432\u0441\u0442\u0430\u043D\u0446\u0435\u0432 \u0425\u0430\u043E\u0441\
+      \u0430"
+    type: Add
+  id: 451
+  time: '2026-05-28T23:36:21.0000000+00:00'
+  url: https://github.com/space-sunrise/project-fire/pull/1003
