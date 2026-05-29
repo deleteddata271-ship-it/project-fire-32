@@ -10697,3 +10697,13 @@
   id: 455
   time: '2026-05-29T08:35:58.0000000+00:00'
   url: https://github.com/space-sunrise/project-fire/pull/1013
+- author: timur
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0441\u043F\u0435\
+      \u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0435 \u043E\u0440\u0433\u0430\u043D\
+      \u044B \u0438 \u043A\u043E\u043D\u0435\u0447\u043D\u043E\u0441\u0442\u0438 \u0432\
+      \ \u0441\u0443\u043C\u043A\u0443 SCP-049"
+    type: Add
+  id: 456
+  time: '2026-05-29T09:26:21.0000000+00:00'
+  url: https://github.com/space-sunrise/project-fire/pull/1018
