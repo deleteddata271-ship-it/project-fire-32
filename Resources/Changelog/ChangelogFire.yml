@@ -11004,3 +11004,13 @@
   id: 469
   time: '2026-06-14T19:27:20.0000000+00:00'
   url: https://github.com/space-sunrise/project-fire/pull/1046
+- author: timur
+  changes:
+  - message: "\u0410\u043D\u043E\u043C\u0430\u043B\u044C\u043D\u044B\u0435 \u0432\u0430\
+      \u043D\u0438\u043B\u044C\u043D\u044B\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\
+      \u0432\u0430 \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0438 \u0438\u0437\u0443\
+      \u0447\u0430\u0435\u043C\u044B\u0435 \u0443\u0437\u043B\u044B"
+    type: Tweak
+  id: 470
+  time: '2026-06-30T18:20:22.0000000+00:00'
+  url: https://github.com/space-sunrise/project-fire/pull/1061
