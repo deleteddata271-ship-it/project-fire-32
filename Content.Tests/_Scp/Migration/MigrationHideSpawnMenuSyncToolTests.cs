@@ -5,7 +5,7 @@ using Content.MigrationHideSpawnMenu;
 using NUnit.Framework;
 
 namespace Content.Tests._Scp.Migration;
-
+3
 [TestFixture]
 [NonParallelizable]
 public sealed class MigrationHideSpawnMenuSyncToolTests
