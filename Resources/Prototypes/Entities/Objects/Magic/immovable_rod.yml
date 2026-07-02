@@ -44,11 +44,7 @@
   parent: ImmovableRod
   id: ImmovableRodDespawn
   suffix: Despawn
-<<<<<<< HEAD:Resources/Prototypes/Entities/Objects/Fun/immovable_rod.yml
-  parent: ImmovableRod
   categories: [ HideSpawnMenu ] # Fire
-=======
->>>>>>> sunrise/master:Resources/Prototypes/Entities/Objects/Magic/immovable_rod.yml
   components:
   - type: TimedDespawn
     lifetime: 30.0

@@ -7,7 +7,6 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using System.Numerics;
-using Content.Client._Scp.Stylesheets.Palette;
 using Content.Client.Lobby;
 using Content.Client.Parallax.Managers;
 using Content.Client.Resources;
@@ -71,7 +70,7 @@ public sealed partial class SunriseLobbyGui : UIScreen
         _back = new StyleBoxTexture
         {
             Texture = panelTex,
-            // Modulate = new Color(37, 37, 42), Fire edit
+            Modulate = new Color(37, 37, 42),
         };
         _back.SetPatchMargin(StyleBox.Margin.All, 10);
 
@@ -123,15 +122,13 @@ public sealed partial class SunriseLobbyGui : UIScreen
         ChatHider.Texture = ChatContent.Visible ? IconExpanded : IconCollapsed;
         UserProfileHider.Texture = UserProfileContent.Visible ? IconExpanded : IconCollapsed;
 
-        // Fire edit start
-        ServersHubHider.Modulate = ScpPalettes.Primary.Text;
-        ContributorsHider.Modulate = ScpPalettes.Primary.Text;
-        ChangelogHider.Modulate = ScpPalettes.Primary.Text;
-        ServerInfoHider.Modulate = ScpPalettes.Primary.Text;
-        CharacterInfoHider.Modulate = ScpPalettes.Primary.Text;
-        ChatHider.Modulate = ScpPalettes.Primary.Text;
-        UserProfileHider.Modulate = ScpPalettes.Primary.Text;
-        // Fire edit end
+        ServersHubHider.Modulate = Palettes.Gold.Base;
+        ContributorsHider.Modulate = Palettes.Gold.Base;
+        ChangelogHider.Modulate = Palettes.Gold.Base;
+        ServerInfoHider.Modulate = Palettes.Gold.Base;
+        CharacterInfoHider.Modulate = Palettes.Gold.Base;
+        ChatHider.Modulate = Palettes.Gold.Base;
+        UserProfileHider.Modulate = Palettes.Gold.Base;
 
         // Скрываем чейнджлог по умолчанию.
         ChangelogContent.Visible = false;
@@ -201,18 +198,8 @@ public sealed partial class SunriseLobbyGui : UIScreen
         SetServersHubEnable(enable);
     }
 
-<<<<<<< HEAD
-    private void OnSponsorEnableChanged(bool enable)
-    {
-        SetUserProfileEnable(enable);
-    }
-
     private void OnContributorsEnableChanged(bool enable)
     {
-=======
-    private void OnContributorsEnableChanged(bool enable)
-    {
->>>>>>> sunrise/master
         SetContributorsEnable(enable);
     }
 
@@ -253,7 +240,7 @@ public sealed partial class SunriseLobbyGui : UIScreen
 
     private void SetLobbyOpacity(float opacity)
     {
-        _back.Modulate = ScpPalettes.Primary.Background.WithAlpha(opacity); // Fire edit
+        _back.Modulate = new Color(37, 37, 42).WithAlpha(opacity);
     }
 
     #endregion

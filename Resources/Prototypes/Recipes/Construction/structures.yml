@@ -1338,8 +1338,6 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
-<<<<<<< HEAD
-=======
 
 - type: construction
   id: Bonfire
@@ -1366,4 +1364,3 @@
   canBuildInImpassable: false
   conditions:
   - !type:TileNotBlocked
->>>>>>> sunrise/master

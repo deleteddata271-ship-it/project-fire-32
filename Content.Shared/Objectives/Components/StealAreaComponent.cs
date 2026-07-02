@@ -35,4 +35,9 @@ public sealed partial class StealAreaComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public int OwnerCount = 0;
+
+    // Fire edit start
+    [DataField]
+    public bool IgnoreUnobstruct;
+    // Fire edit end
 }

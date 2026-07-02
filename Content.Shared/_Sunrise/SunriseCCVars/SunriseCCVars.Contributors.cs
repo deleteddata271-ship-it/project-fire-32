@@ -5,11 +5,7 @@ namespace Content.Shared._Sunrise.SunriseCCVars;
 public sealed partial class SunriseCCVars
 {
     public static readonly CVarDef<bool> ContributorsEnable =
-<<<<<<< HEAD
-        CVarDef.Create("contributors.enable", false, CVar.SERVER | CVar.REPLICATED);
-=======
         CVarDef.Create("contributors.enable", true, CVar.SERVER | CVar.REPLICATED);
->>>>>>> sunrise/master
 
     public static readonly CVarDef<string> ContributorsApiUrl =
         CVarDef.Create("contributors.api_url", string.Empty, CVar.SERVERONLY);

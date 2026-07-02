@@ -8,7 +8,6 @@
   - MetalRod
   categoryEntries:
   - Pipes
-  - SteelTiles
 
 - type: quickConstructionCategory
   id: Pipes
@@ -70,11 +69,3 @@
   - GasFilter
   - GasMixer
 
-- type: quickConstructionCategory
-  id: SteelTiles
-  name: quickconstruction-category-tile
-  icon: { sprite: Objects/Tiles/tile.rsi, state: steel }
-  constructionEntries:
-  - TileDark
-  - TileWhite
-  - TileSteel

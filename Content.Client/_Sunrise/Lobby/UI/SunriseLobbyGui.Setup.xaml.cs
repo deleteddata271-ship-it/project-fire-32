@@ -115,18 +115,6 @@ public sealed partial class SunriseLobbyGui
         SetupButtonIcon(WikiButton, "/Textures/Interface/wiki.svg.192dpi.png", _loc.GetString("server-info-wiki-button"));
         SetupButtonIcon(TelegramButton, "/Textures/Interface/telegram.svg.192dpi.png", _loc.GetString("server-info-telegram-button"));
         SetupButtonIcon(ReplaysButton, "/Textures/Interface/replay.svg.192dpi.png", _loc.GetString("ui-lobby-replays-button"));
-
-        // Fire added start - Track all icon buttons for hover color inversion
-        TrackButtonHover(AHelpButton);
-        TrackButtonHover(MHelpButton);
-        TrackButtonHover(CallVoteButton);
-        TrackButtonHover(OptionsButton);
-        TrackButtonHover(LeaveButton);
-        TrackButtonHover(DiscordButton);
-        TrackButtonHover(WikiButton);
-        TrackButtonHover(TelegramButton);
-        TrackButtonHover(ReplaysButton);
-        // Fire added end
     }
 
     #endregion
@@ -164,10 +152,6 @@ public sealed partial class SunriseLobbyGui
 
         _cfg.OnValueChanged(SunriseCCVars.LobbyOpacity, OnLobbyOpacityChanged, true);
         _cfg.OnValueChanged(SunriseCCVars.ServersHubEnable, OnServersHubEnableChanged, true);
-<<<<<<< HEAD
-        _cfg.OnValueChanged(SunriseCCVars.SponsorEnabled, OnSponsorEnableChanged, true);
-=======
->>>>>>> sunrise/master
         _cfg.OnValueChanged(SunriseCCVars.ContributorsEnable, OnContributorsEnableChanged, true);
         _cfg.OnValueChanged(SunriseCCVars.ServerName, OnServerNameChanged, true);
 
@@ -186,10 +170,6 @@ public sealed partial class SunriseLobbyGui
 
         _cfg.UnsubValueChanged(SunriseCCVars.LobbyOpacity, OnLobbyOpacityChanged);
         _cfg.UnsubValueChanged(SunriseCCVars.ServersHubEnable, OnServersHubEnableChanged);
-<<<<<<< HEAD
-        _cfg.UnsubValueChanged(SunriseCCVars.SponsorEnabled, OnSponsorEnableChanged);
-=======
->>>>>>> sunrise/master
         _cfg.UnsubValueChanged(SunriseCCVars.ContributorsEnable, OnContributorsEnableChanged);
         _cfg.UnsubValueChanged(SunriseCCVars.ServerName, OnServerNameChanged);
 

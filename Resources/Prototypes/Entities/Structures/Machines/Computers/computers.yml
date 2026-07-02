@@ -1092,13 +1092,8 @@
   - type: CargoOrderConsole
     account: Engineering
     announcementChannel: Engineering
-<<<<<<< HEAD
     removeLimitAccess: [ "ChiefTechnicalSpecialist" ] # Fire edit
-    mode: SendToPrimary
-=======
-    removeLimitAccess: [ "ChiefEngineer" ]
-    #mode: SendToPrimary # Sunrise-Edit
->>>>>>> sunrise/master
+    mode: SendToPrimary # Fire edit
   - type: ActiveRadio
     channels:
     - Engineering
@@ -1131,13 +1126,8 @@
   - type: CargoOrderConsole
     account: Medical
     announcementChannel: Medical
-<<<<<<< HEAD
     removeLimitAccess: [ "HeadOfMedicalSector" ] # Fire edit
-    mode: SendToPrimary
-=======
-    removeLimitAccess: [ "ChiefMedicalOfficer" ]
-    #mode: SendToPrimary # Sunrise-Edit
->>>>>>> sunrise/master
+    mode: SendToPrimary # Fire edit
   - type: ActiveRadio
     channels:
     - Medical
@@ -1170,13 +1160,8 @@
   - type: CargoOrderConsole
     account: Science
     announcementChannel: Science
-<<<<<<< HEAD
     removeLimitAccess: [ "ScientificServiceDirector" ] # Fire edit
-    mode: SendToPrimary
-=======
-    removeLimitAccess: [ "ResearchDirector" ]
-    #mode: SendToPrimary # Sunrise-Edit
->>>>>>> sunrise/master
+    mode: SendToPrimary # Fire edit
   - type: ActiveRadio
     channels:
     - Science
@@ -1209,13 +1194,8 @@
   - type: CargoOrderConsole
     account: Security
     announcementChannel: Security
-<<<<<<< HEAD
     removeLimitAccess: [ "SecurityCommander" ] # Fire edit
-    mode: SendToPrimary
-=======
-    removeLimitAccess: [ "HeadOfSecurity" ]
-    #mode: SendToPrimary # Sunrise-Edit
->>>>>>> sunrise/master
+    mode: SendToPrimary # Fire edit
   - type: ActiveRadio
     channels:
     - Security
@@ -1248,13 +1228,8 @@
   - type: CargoOrderConsole
     account: Service
     announcementChannel: Service
-<<<<<<< HEAD
     removeLimitAccess: [ "PersonnelOfficer" ] # Fire edit
-    mode: SendToPrimary
-=======
-    removeLimitAccess: [ "HeadOfPersonnel" ]
-    #mode: SendToPrimary # Sunrise-Edit
->>>>>>> sunrise/master
+    mode: SendToPrimary # Fire edit
   - type: ActiveRadio
     channels:
     - Service

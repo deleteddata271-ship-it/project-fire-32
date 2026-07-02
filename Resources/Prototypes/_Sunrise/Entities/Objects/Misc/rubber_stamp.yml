@@ -2,12 +2,8 @@
   name: internal affairs agent's rubber stamp
   parent: RubberStampBase
   id: RubberStampIAA
-<<<<<<< HEAD
-  categories: [ DoNotMap, HideSpawnMenu ] # Fire added
   suffix: DO NOT MAP
-=======
-  categories: [ DoNotMap ]
->>>>>>> sunrise/master
+  categories: [ DoNotMap, HideSpawnMenu ] # Fire edit
   components:
     - type: Stamp
       stampedName: stamp-component-stamped-name-iaa
@@ -21,12 +17,8 @@
   name: magistrat's rubber stamp
   parent: RubberStampBase
   id: RubberStampMagistrat
-<<<<<<< HEAD
-  categories: [ DoNotMap, HideSpawnMenu ] # Fire added
   suffix: DO NOT MAP
-=======
-  categories: [ DoNotMap ]
->>>>>>> sunrise/master
+  categories: [ DoNotMap, HideSpawnMenu ] # Fire edit
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-magistrat
@@ -40,12 +32,8 @@
   name: NT representative's rubber stamp
   parent: RubberStampBase
   id: RubberStampNtrep
-<<<<<<< HEAD
-  categories: [ DoNotMap, HideSpawnMenu ] # Fire added
   suffix: DO NOT MAP
-=======
-  categories: [ DoNotMap ]
->>>>>>> sunrise/master
+  categories: [ DoNotMap, HideSpawnMenu ] # Fire edit
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-ntrep
@@ -59,12 +47,8 @@
   name: pathologist rubber stamp
   parent: RubberStampBase
   id: RubberStampPath
-<<<<<<< HEAD
-  categories: [ DoNotMap, HideSpawnMenu ] # Fire added
   suffix: DO NOT MAP
-=======
-  categories: [ DoNotMap ]
->>>>>>> sunrise/master
+  categories: [ DoNotMap, HideSpawnMenu ] # Fire edit
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-path
@@ -78,12 +62,8 @@
   name: adjutant's rubber stamp
   parent: RubberStampBase
   id: RubberStampAdj
-<<<<<<< HEAD
-  categories: [ DoNotMap, HideSpawnMenu ] # Fire added
   suffix: DO NOT MAP
-=======
-  categories: [ DoNotMap ]
->>>>>>> sunrise/master
+  categories: [ DoNotMap, HideSpawnMenu ] # Fire edit
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-adj

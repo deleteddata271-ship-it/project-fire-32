@@ -34,6 +34,7 @@ using Content.Shared.Weapons.Ranged.Events;
 using Content.Shared.Wieldable;
 using Content.Shared.Zombies;
 using Content.Shared._Sunrise.ScanGate; // Sunrise-Edit
+using Content.Shared._Sunrise.Weapons.Events; // Fire edit
 
 namespace Content.Shared.Inventory;
 

@@ -744,21 +744,18 @@
     idleState: icon
     runningState: building
     staticPacks:
-<<<<<<< HEAD
     - ScpFloorTilesStatic # Fire Edit
-=======
-    - FloorDarkTilesStatic
-    - FloorSteelTilesStatic
-    - FloorWhiteTilesStatic
-    - FloorMaintsTilesStatic
-    - FloorWoodTilesStatic
-    - FloorConcreteTilesStatic
-    - CircuitFloorsStatic
-    - FloorMarbleTilesStatic
-    - SunriseFloorTilesStatic # Sunrise-Edit
+    #- FloorDarkTilesStatic # Fire edit
+    #- FloorSteelTilesStatic # Fire edit
+    #- FloorWhiteTilesStatic # Fire edit
+    #- FloorMaintsTilesStatic # Fire edit
+    #- FloorWoodTilesStatic # Fire edit
+    #- FloorConcreteTilesStatic # Fire edit
+    #- CircuitFloorsStatic # Fire edit
+    #- FloorMarbleTilesStatic # Fire edit
+    #- SunriseFloorTilesStatic # Sunrise-Edit # Fire edit
     dynamicPacks:
     - FauxTiles
->>>>>>> sunrise/master
   - type: MaterialStorage
     whitelist: *StandardMaterialWhitelist
   - type: OreSiloClient

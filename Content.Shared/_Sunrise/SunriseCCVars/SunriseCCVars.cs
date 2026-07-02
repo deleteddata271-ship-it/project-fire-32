@@ -92,11 +92,7 @@ public sealed partial class SunriseCCVars : CVars
      */
 
     public static readonly CVarDef<bool> SponsorEnabled =
-<<<<<<< HEAD
-        CVarDef.Create("sponsor.enabled", false, CVar.SERVER | CVar.REPLICATED);
-=======
         CVarDef.Create("sponsor.enabled", true, CVar.SERVER | CVar.REPLICATED);
->>>>>>> sunrise/master
 
     public static readonly CVarDef<string> SponsorApiUrl =
         CVarDef.Create("sponsor.api_url", "", CVar.SERVERONLY);

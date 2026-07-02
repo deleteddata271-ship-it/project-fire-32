@@ -13,8 +13,7 @@
     xmlns:vote="clr-namespace:Content.Client.Voting.UI"
     xmlns:widgets="clr-namespace:Content.Client.UserInterface.Systems.Chat.Widgets"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:ui="clr-namespace:Content.Client._Sunrise.Lobby.UI"
-    xmlns:palette="clr-namespace:Content.Client._Scp.Stylesheets.Palette">
+    xmlns:ui="clr-namespace:Content.Client._Sunrise.Lobby.UI">
     <!--  Background  -->
     <TextureRect
         Access="Public"
@@ -54,91 +53,9 @@
             </BoxContainer>
             <BoxContainer
                 HorizontalExpand="True"
-<<<<<<< HEAD
-                Orientation="Vertical">
-                <PanelContainer Name="LeftTopPanel" StyleClasses="AngleRect">
-                    <BoxContainer
-                        HorizontalAlignment="Center"
-                        HorizontalExpand="True"
-                        Orientation="Vertical"
-                        VerticalAlignment="Top">
-                        <Label
-                            Access="Public"
-                            HorizontalAlignment="Center"
-                            HorizontalExpand="True"
-                            Name="ServerName"
-                            StyleClasses="LabelHeadingBigger"
-                            Text="{Loc 'ui-lobby-welcome'}"
-                            VAlign="Center" />
-                        <controls:HLine Color="{x:Static palette:ScpPalettes.SCPWhite}" Thickness="2" />
-                        <info:LinkBanner
-                            HorizontalAlignment="Center"
-                            Margin="3,3,3,3"
-                            Name="LinkBanner" />
-                        <controls:StripeBack>
-                            <BoxContainer
-                                HorizontalAlignment="Stretch"
-                                HorizontalExpand="True"
-                                Margin="3,3,3,3"
-                                Orientation="Horizontal"
-                                VerticalAlignment="Stretch">
-                                <cc:UICommandButton
-                                    Access="Public"
-                                    Command="observe"
-                                    HorizontalAlignment="Stretch"
-                                    HorizontalExpand="True"
-                                    MinWidth="200"
-                                    Name="ObserveButton"
-                                    StyleClasses="ButtonBig"
-                                    Text="{Loc 'ui-lobby-observe-button'}"
-                                    WindowType="{x:Type lobbyUi:ObserveWarningWindow}" />
-                                <Button
-                                    Access="Public"
-                                    HorizontalAlignment="Stretch"
-                                    HorizontalExpand="True"
-                                    MinWidth="200"
-                                    Name="ReadyButton"
-                                    StyleClasses="ButtonBig"
-                                    Text="{Loc 'ui-lobby-ready-up-button'}"
-                                    ToggleMode="True" />
-                                <cc:CommandButton
-                                    Access="Public"
-                                    Command="ghostroles"
-                                    HorizontalAlignment="Stretch"
-                                    HorizontalExpand="True"
-                                    MinWidth="200"
-                                    Name="GhostRolesButton"
-                                    StyleClasses="ButtonBig"
-                                    Text="{Loc 'ghost-roles-window-title'}" />
-                            </BoxContainer>
-                        </controls:StripeBack>
-                        <RichTextLabel
-                            Access="Public"
-                            HorizontalAlignment="Center"
-                            Name="PlaytimeComment"
-                            Visible="False" />
-                    </BoxContainer>
-                </PanelContainer>
-                <BoxContainer
-                    Access="Public"
-                    HorizontalAlignment="Left"
-                    Margin="0,8"
-                    Name="VoteContainer"
-                    Orientation="Vertical"
-                    SeparationOverride="4"
-                    VerticalAlignment="Top" />
-            </BoxContainer>
-            <BoxContainer
-                HorizontalAlignment="Left"
-                HorizontalExpand="True"
-                Orientation="Vertical"
-                SeparationOverride="2"
-                VerticalAlignment="Stretch"
-=======
                 Name="DefaultStateMainRow"
                 Orientation="Horizontal"
                 SeparationOverride="5"
->>>>>>> sunrise/master
                 VerticalExpand="True">
                     <BoxContainer
                         HorizontalAlignment="Left"

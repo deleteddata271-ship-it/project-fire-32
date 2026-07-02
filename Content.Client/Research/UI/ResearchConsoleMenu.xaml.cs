@@ -31,20 +31,6 @@ public sealed partial class ResearchConsoleMenu : FancyWindow
     private readonly SpriteSystem _sprite;
     private readonly AccessReaderSystem _accessReader;
 
-<<<<<<< HEAD
-    // if set to null  - we are waiting for server info and should not let rerolls
-    private TimeSpan? _nextRediscover;
-
-    // Fire edit start - поддержка нескольких видов очков исследований
-    private Dictionary<ProtoId<ResearchPointPrototype>, int> _rediscoverCost = new ();
-    private Dictionary<ProtoId<ResearchPointPrototype>, int> _serverPoints = new ();
-    // Fire edit end
-
-    private TimeSpan _nextUpdate;
-    private readonly TimeSpan _updateInterval = TimeSpan.FromMilliseconds(500);
-
-=======
->>>>>>> sunrise/master
     public EntityUid Entity;
 
     public ResearchConsoleMenu()
@@ -98,19 +84,6 @@ public sealed partial class ResearchConsoleMenu : FancyWindow
         SyncTechnologyList(UnlockedCardsContainer, unlockedTech);
     }
 
-<<<<<<< HEAD
-    private void UpdateRediscoverButton()
-    {
-        // Fire edit start- поддержка разных видов очков исследований
-        RediscoverButton.Disabled = !HasAccess() || !ResearchPointsHelper.IsEnoughPoints(_serverPoints, _rediscoverCost) || _timing.CurTime < _nextRediscover;
-
-        var cost = ResearchPointsHelper.PointsToString(_rediscoverCost, " ", _prototype);
-        RediscoverButton.Text = Loc.GetString("research-console-menu-server-rediscover-button", ("cost", cost));
-        // Fire edit end
-    }
-
-=======
->>>>>>> sunrise/master
     public void UpdateInformationPanel(ResearchConsoleBoundInterfaceState state)
     {
         // Fire edit start- поддержка разных видов очков исследований

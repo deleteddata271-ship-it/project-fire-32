@@ -20,12 +20,8 @@
   - type: Anchorable
     flags:
     - Anchorable
-<<<<<<< HEAD
  #- type: Rotatable # Fire-edit, stairs don't need to be rotatable
   - type: Clickable
-=======
-  - type: Rotatable
->>>>>>> sunrise/master
   - type: Sprite
     sprite: Structures/stairs.rsi
     state: stairs_steel

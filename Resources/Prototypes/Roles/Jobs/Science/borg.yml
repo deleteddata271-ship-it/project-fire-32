@@ -6,17 +6,9 @@
   description: job-description-station-ai
   playTimeTracker: JobStationAi
   requirements:
-<<<<<<< HEAD
   - !type:DepartmentTimeRequirement
     department: Administration # Fire edit
     time: 36000 # 10 hours FireStation Edit
-=======
-  # Sunrise-start
-  - !type:DepartmentTimeRequirement
-    department: Silicon
-    time: 5h
-  # Sunrise-end
->>>>>>> sunrise/master
   weight: 10
   canBeAntag: false
   icon: JobIconStationAi

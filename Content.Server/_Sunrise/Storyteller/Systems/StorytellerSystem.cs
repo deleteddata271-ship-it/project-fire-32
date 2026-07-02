@@ -591,7 +591,7 @@ public sealed partial class StorytellerSystem : GameRuleSystem<StorytellerRuleCo
             if (station == null || !HasComp<MainStationComponent>(station.Value))
                 continue;
 
-            sciencePoints += serverComp.Points;
+            sciencePoints += serverComp.Points.Values.Sum(); // Fire edit
         }
 
         // Calculate expanded storyteller metrics

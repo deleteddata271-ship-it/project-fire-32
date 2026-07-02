@@ -413,15 +413,11 @@
   - type: Sprite
     state: cpu_supply
   - type: ComputerBoard
-<<<<<<< HEAD
     prototype: ScpComputerRadar # Fire edit
-=======
-    prototype: ComputerRadar
   # Sunrise-Edit
   - type: Tag
     tags:
     - RadarConsoleCircuitboard
->>>>>>> sunrise/master
 
 - type: entity
   parent: BaseComputerCircuitboard
