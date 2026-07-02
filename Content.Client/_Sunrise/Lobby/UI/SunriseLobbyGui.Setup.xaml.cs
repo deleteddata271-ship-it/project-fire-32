@@ -39,13 +39,12 @@ public sealed partial class SunriseLobbyGui
             CharacterInfoHider.Texture = CharacterInfoContent.Visible ? IconExpanded : IconCollapsed;
         };
 
-        UserProfileHider.OnKeyBindUp += args =>
+        UserProfileHeader.OnKeyBindUp += args =>
         {
             if (args.Function != EngineKeyFunctions.Use)
                 return;
 
-            UserProfileContent.Visible = !UserProfileContent.Visible;
-            UserProfileHider.Texture = UserProfileContent.Visible ? IconExpanded : IconCollapsed;
+            SetUserProfileExpanded(!UserProfileContent.Visible);
         };
 
         ServersHubHider.OnKeyBindUp += args =>
@@ -165,7 +164,10 @@ public sealed partial class SunriseLobbyGui
 
         _cfg.OnValueChanged(SunriseCCVars.LobbyOpacity, OnLobbyOpacityChanged, true);
         _cfg.OnValueChanged(SunriseCCVars.ServersHubEnable, OnServersHubEnableChanged, true);
+<<<<<<< HEAD
         _cfg.OnValueChanged(SunriseCCVars.SponsorEnabled, OnSponsorEnableChanged, true);
+=======
+>>>>>>> sunrise/master
         _cfg.OnValueChanged(SunriseCCVars.ContributorsEnable, OnContributorsEnableChanged, true);
         _cfg.OnValueChanged(SunriseCCVars.ServerName, OnServerNameChanged, true);
 
@@ -184,7 +186,10 @@ public sealed partial class SunriseLobbyGui
 
         _cfg.UnsubValueChanged(SunriseCCVars.LobbyOpacity, OnLobbyOpacityChanged);
         _cfg.UnsubValueChanged(SunriseCCVars.ServersHubEnable, OnServersHubEnableChanged);
+<<<<<<< HEAD
         _cfg.UnsubValueChanged(SunriseCCVars.SponsorEnabled, OnSponsorEnableChanged);
+=======
+>>>>>>> sunrise/master
         _cfg.UnsubValueChanged(SunriseCCVars.ContributorsEnable, OnContributorsEnableChanged);
         _cfg.UnsubValueChanged(SunriseCCVars.ServerName, OnServerNameChanged);
 

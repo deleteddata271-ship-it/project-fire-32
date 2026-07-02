@@ -1,6 +1,6 @@
 using Content.Server._Scp.GameTicking.Rules;
 using Content.Server.Objectives.Systems;
-using Content.Server.Thief.Systems;
+using Content.Shared.Thief.Systems;
 
 namespace Content.Server.Objectives.Components;
 

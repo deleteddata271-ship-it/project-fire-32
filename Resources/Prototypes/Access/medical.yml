@@ -18,7 +18,14 @@
   id: Medical
   # Fire edit start
   tags:
+<<<<<<< HEAD
   - HeadOfMedicalSector
   groups:
   - MedicalHeadless
   # Fire edit end
+=======
+  - ChiefMedicalOfficer
+  - Medical
+  - Chemistry
+  - Paramedic # Sunrise-edit
+>>>>>>> sunrise/master

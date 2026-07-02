@@ -1338,3 +1338,32 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+<<<<<<< HEAD
+=======
+
+- type: construction
+  id: Bonfire
+  graph: Bonfire
+  startNode: start
+  targetNode: bonfire
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+  - !type:TileNotBlocked
+
+- type: construction
+  id: BonfireStake
+  graph: Bonfire
+  startNode: start
+  targetNode: bonfireStake
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+  - !type:TileNotBlocked
+>>>>>>> sunrise/master
