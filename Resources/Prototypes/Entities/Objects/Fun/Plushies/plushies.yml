@@ -1283,6 +1283,7 @@
 - type: entity
   parent: BasePlushie
   id: ToyAmongPequeno
+  categories: [ HideSpawnMenu ] # Fire edit
   name: among pequeño
   description: Sus!
   components:

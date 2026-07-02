@@ -178,6 +178,7 @@
 
 - type: entity
   id: MagazineGlock22
+  categories: [ HideSpawnMenu ] # Fire edit
   name: Glock22 magazine
   parent: BaseItem
   components:
