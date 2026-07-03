@@ -158,8 +158,8 @@
     - 0,3,3,6
   - type: StorageFill
     contents:
-      - id: WeaponGrenadeLauncherGL70
       - id: ClothingBeltMtfGrenadeGL70
+      - id: WeaponGrenadeLauncherGL70
 
 - type: entity
   parent: BaseMtfStorageCrateSpecWeapon
