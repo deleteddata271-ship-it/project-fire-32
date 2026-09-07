@@ -9,3 +9,15 @@
     1: 0
     2: 0.75
     3: 0.75
+
+- type: techDiscipline
+  id: scp_arsenal
+  name: research-discipline-scp_arsenal
+  color: "#dc373b"
+  icon:
+    sprite: Interface/Misc/research_disciplines.rsi
+    state: arsenal
+  tierPrerequisites:
+    1: 0
+    2: 0.75
+    3: 0.75
