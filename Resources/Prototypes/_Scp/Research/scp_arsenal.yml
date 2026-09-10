@@ -5,7 +5,7 @@
   icon:
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi
     state: base
-  discipline: scp_scp_arsenal
+  discipline: scp_arsenal
   tier: 2
   cost: 7500
   defaultToScpScale: 0.1
@@ -38,7 +38,7 @@
   icon:
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi
     state: ap
-  discipline: scp_scp_arsenal
+  discipline: scp_arsenal
   tier: 2
   cost: 12000
   defaultToScpScale: 0.1
@@ -69,7 +69,7 @@
   icon:
     sprite: Objects/Specific/Mech/gygax.rsi
     state: gygax
-  discipline: scp_scp_arsenal
+  discipline: scp_arsenal
   tier: 2
   cost: 12000
   defaultToScpScale: 0.3
@@ -96,7 +96,7 @@
   icon:
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_missilerack
-  discipline: scp_scp_arsenal
+  discipline: scp_arsenal
   tier: 3
   cost: 15000
   defaultToScpScale: 0.2
@@ -114,7 +114,7 @@
   icon:
     sprite: Objects/Specific/Mech/durand.rsi
     state: base
-  discipline: scp_scp_arsenal
+  discipline: scp_arsenal
   tier: 3
   cost: 13000
   defaultToScpScale: 0.3
