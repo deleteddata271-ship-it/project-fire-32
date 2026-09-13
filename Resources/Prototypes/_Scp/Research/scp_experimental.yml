@@ -3,7 +3,7 @@
 
 # Tier 3
 - type: technology
-  id: IndustrialRobotic
+  id: scp_IndustrialRobotic
   name: research-technology-industrial-robotics
   icon:
     sprite: _Sunrise/Structures/Machines/hyper_exosuit_fabricator.rsi
@@ -15,9 +15,9 @@
   recipeUnlocks:
   - ExosuitFabricatorHyperConvectionMachineCircuitboard
   technologyPrerequisites:
-  - BasicRobotics
-  - IndustrialEngineering
-  - Durand
+  - scp_BasicRobotics
+  - scp_IndustrialEngineering
+  - scp_Durand
 
 # - type: technology
 #   id: Phazon
@@ -48,7 +48,7 @@
 # Tier 1
 
 - type: technology
-  id: BasicRobotics
+  id: scp_BasicRobotics
   name: research-technology-basic-robotics
   icon:
     sprite: Structures/Machines/exosuit_fabricator.rsi
@@ -66,7 +66,7 @@
   # Sunrise-Edit-End
 
 - type: technology
-  id: BasicXenoArcheology
+  id: scp_BasicXenoArcheology
   name: research-technology-basic-xenoarcheology
   icon:
     sprite: Structures/Machines/artifact_analyzer.rsi
@@ -81,7 +81,7 @@
   - ArtifactAnalyzerMachineCircuitboard
 
 - type: technology
-  id: AlternativeResearch
+  id: scp_AlternativeResearch
   name: research-technology-alternative-research
   icon:
     sprite: Structures/Machines/tech_disk_printer.rsi
@@ -94,7 +94,7 @@
   - TechDiskComputerCircuitboard
 
 - type: technology
-  id: MagnetsTech
+  id: scp_MagnetsTech
   name: research-technology-magnets-tech
   icon:
     sprite: Clothing/Shoes/Boots/magboots-science.rsi
@@ -111,7 +111,7 @@
 # Tier 2
 
 - type: technology
-  id: AbnormalArtifactManipulation
+  id: scp_AbnormalArtifactManipulation
   name: research-technology-abnormal-artifact-manipulation
   icon:
     sprite: Structures/Machines/artifact_crusher.rsi
@@ -124,7 +124,7 @@
   - ArtifactCrusherMachineCircuitboard
 
 - type: technology
-  id: DeterrenceTechnologies
+  id: scp_DeterrenceTechnologies
   name: research-technology-deterrence
   icon:
     sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
@@ -138,7 +138,7 @@
   - HoloprojectorField
 
 - type: technology
-  id: GravityManipulation
+  id: scp_GravityManipulation
   name: research-technology-gravity-manipulation
   icon:
     sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi

@@ -1,7 +1,7 @@
 # Tier 1
 
 - type: technology
-  id: SurgeryTech
+  id: scp_SurgeryTech
   name: research-technology-basic-surgery
   icon:
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -21,7 +21,7 @@
     - BorgModuleSurgical
 
 - type: technology
-  id: CyberLimbsTech
+  id: scp_CyberLimbsTech
   name: research-technology-basic-cyberlimbs
   icon:
     sprite: _Sunrise/Mobs/Species/Cyberlimbs/parts.rsi
@@ -38,7 +38,7 @@
 
 # Tier 2
 - type: technology
-  id: ImplantExtractor
+  id: scp_ImplantExtractor
   name: research-technology-implant-extractor
   icon:
     sprite: Objects/Specific/Medical/implanter.rsi
@@ -51,7 +51,7 @@
   - ImplanterExtractor
 
 - type: technology
-  id: MedicalAssembler
+  id: scp_MedicalAssembler
   name: research-technology-medical-assembler
   icon:
     sprite: _Sunrise/Structures/Machines/medical_assembler.rsi
@@ -63,11 +63,9 @@
   recipeUnlocks:
   - MedicalAssemblerMachineCircuitboard
   - BlankMediPen
-  technologyPrerequisites:
-    - MechanizedTreatment
 
 - type: technology
-  id: SurgeryTechAdvanced
+  id: scp_SurgeryTechAdvanced
   name: research-technology-advanced-surgery
   icon:
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -84,10 +82,10 @@
     - RetractorAdvanced
     - HemostatAdvanced
   technologyPrerequisites:
-    - SurgeryTech
+    - scp_SurgeryTech
 
 - type: technology
-  id: DnaInjectorTech
+  id: scp_DnaInjectorTech
   name: research-technology-dna-injector
   icon:
     sprite: Objects/Specific/Medical/implanter.rsi
@@ -99,11 +97,11 @@
   recipeUnlocks:
     - DnaInjector
   technologyPrerequisites:
-    - SurgeryTechAdvanced
-    - ImplantExtractor
+    - scp_SurgeryTechAdvanced
+    - scp_ImplantExtractor
 
 - type: technology
-  id: HandheldEmergencyCrewMonitorTech
+  id: scp_HandheldEmergencyCrewMonitorTech
   name: research-technology-hanheld-crew-monitor
   icon:
     sprite: _Sunrise/Objects/Specific/Medical/handheld_emergency_crewmonitor.rsi
@@ -115,10 +113,10 @@
   recipeUnlocks:
     - HandheldEmergencyCrewMonitor
   technologyPrerequisites:
-    - SurgeryTech
+    - scp_SurgeryTech
 
 - type: technology
-  id: CyberImplantsTech
+  id: scp_CyberImplantsTech
   name: research-technology-basic-eye-implants
   icon:
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi
@@ -133,7 +131,7 @@
     - ImplantCaseImplantChemical
     - ImplantCaseImplantSecurity
   technologyPrerequisites:
-    - CyberLimbsTech
+    - scp_CyberLimbsTech
   radioChannels:
   - Security
   - Medical
@@ -155,7 +153,7 @@
     - TrackingImplant
     - CreepyLaughImplant # EMAG
   technologyPrerequisites:
-    - CyberImplantsTech
+    - scp_CyberImplantsTech
   radioChannels:
   - Medical
 
@@ -179,7 +177,7 @@
   - Medical
 
 - type: technology
-  id: MechanizedMedicalTreatment
+  id: scp_MechanizedMedicalTreatment
   name: research-technology-mechanized-medical-treatment
   icon:
     sprite: Mobs/Silicon/chassis.rsi
@@ -194,7 +192,7 @@
   - Medical
 
 - type: technology
-  id: FunctionalCyberLimbsTech
+  id: scp_FunctionalCyberLimbsTech
   name: research-technology-functional-cyberlimbs
   icon:
     sprite: _Starlight/Interface/Actions/actions_cyber.rsi
@@ -208,14 +206,14 @@
     - ImplantCaseMechwright
     - ImplantCaseRobust
   technologyPrerequisites:
-    - CyberLimbsTech
+    - scp_CyberLimbsTech
   radioChannels:
   - Medical
   - Engineering
   - Service
 
 - type: technology
-  id: AtmosCyberLimbsTech
+  id: scp_AtmosCyberLimbsTech
   name: research-technology-atmos-cyberlimbs
   icon:
     sprite: _Starlight/Interface/Actions/actions_cyber.rsi
@@ -227,14 +225,14 @@
   recipeUnlocks:
     - ImplantCaseAtmos
   technologyPrerequisites:
-    - FunctionalCyberLimbsTech
-    - AtmosphericTech
+    - scp_FunctionalCyberLimbsTech
+    - scp_AtmosphericTech
   radioChannels:
   - Medical
   - Engineering
 
 - type: technology
-  id: JanitorialCyberLimbsTech
+  id: scp_JanitorialCyberLimbsTech
   name: research-technology-jani-cyberlimbs
   icon:
     sprite: _Sunrise/Objects/Tools/cyber_advmop.rsi
@@ -246,14 +244,14 @@
   recipeUnlocks:
     - ImplantCaseJani
   technologyPrerequisites:
-    - FunctionalCyberLimbsTech
-    - AdvancedCleaning
+    - scp_FunctionalCyberLimbsTech
+    - scp_AdvancedCleaning
   radioChannels:
   - Medical
   - Service
 
 - type: technology
-  id: CompactDefibrillation
+  id: scp_CompactDefibrillation
   name: research-technology-compact-defibrilation
   icon:
     sprite: Objects/Specific/Medical/defibsmall.rsi
@@ -265,12 +263,12 @@
   recipeUnlocks:
     - DefibrillatorCompact
   technologyPrerequisites:
-    - SurgeryTech
+    - scp_SurgeryTech
   radioChannels:
   - Medical
 
 - type: technology
-  id: AdvancedCompactDefibrillation
+  id: scp_AdvancedCompactDefibrillation
   name: research-technology-advanced-compact-defibrilation
   icon:
     sprite: _Sunrise/Entities/Objects/Specific/Medical/advanced_defibsmall.rsi
@@ -282,13 +280,13 @@
   recipeUnlocks:
     - AdvancedDefibrillatorCompact
   technologyPrerequisites:
-    - CompactDefibrillation
+    - scp_CompactDefibrillation
   radioChannels:
   - Medical
 
 # Tier 3
 - type: technology
-  id: HackCyberLimbsTech
+  id: scp_HackCyberLimbsTech
   name: research-technology-hack-cyberlimbs
   icon:
     sprite: _Starlight/Interface/Actions/actions_cyber.rsi
@@ -300,16 +298,16 @@
   recipeUnlocks:
     - ImplantCaseHack
   technologyPrerequisites:
-    - FunctionalCyberLimbsTech
-    - AdvancedToolsTechnology
-    - BasicXenoArcheology
+    - scp_FunctionalCyberLimbsTech
+    - scp_AdvancedToolsTechnology
+    - scp_BasicXenoArcheology
   radioChannels:
   - Medical
   - Engineering
   - Service
 
 - type: technology
-  id: ImplantExtractorSafety
+  id: scp_ImplantExtractorSafety
   name: research-technology-implant-extractor-safety
   icon:
     sprite: _Sunrise/Structures/Machines/interrogator.rsi
@@ -321,10 +319,10 @@
   recipeUnlocks:
   - InterrogatorMachineCircuitboard
   technologyPrerequisites:
-    - ImplantExtractor
+    - scp_ImplantExtractor
 
 - type: technology
-  id: AutoMenders
+  id: scp_AutoMenders
   name: research-technology-autoMenders
   icon:
     sprite: _Starlight/Objects/Specific/Medical/medical.rsi
@@ -342,7 +340,7 @@
   - Medical
 
 - type: technology
-  id: ScienceCyberLimbsTech
+  id: scp_ScienceCyberLimbsTech
   name: research-technology-science-cyberlimbs
   icon:
     sprite: Objects/Weapons/Melee/gorilla.rsi
@@ -354,15 +352,14 @@
   recipeUnlocks:
     - ImplantCaseGorilla
   technologyPrerequisites:
-    - FunctionalCyberLimbsTech
-    - AnomalyCoreHarnessing
+    - scp_FunctionalCyberLimbsTech
   radioChannels:
   - Security
   - Medical
   - Science
 
 - type: technology
-  id: SecurityMeleeCyberLimbsTech
+  id: scp_SecurityMeleeCyberLimbsTech
   name: research-technology-secmelee-cyberlimbs
   icon:
     sprite: _Starlight/Objects/Weapons/Melee/cybermantisblade.rsi
@@ -376,14 +373,14 @@
     - ImplantCaseBulwark
     - ImplantCaseBonesaw
   technologyPrerequisites:
-    - FunctionalCyberLimbsTech
-    - CombatEquipment
+    - scp_FunctionalCyberLimbsTech
+    - scp_CombatEquipment
   radioChannels:
   - Security
   - Medical
 
 - type: technology
-  id: CyberEyeNightVision
+  id: scp_CyberEyeNightVision
   name: research-technology-nightvision-eyes
   icon:
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi
@@ -395,13 +392,13 @@
   recipeUnlocks:
     - ImplantCaseNightVision
   technologyPrerequisites:
-    - CyberImplantsTech
+    - scp_CyberImplantsTech
   radioChannels:
   - Security
   - Medical
 
 - type: technology
-  id: CyberEyeThermalVision
+  id: scp_CyberEyeThermalVision
   name: research-technology-thermalvision-eyes
   icon:
     sprite: _Starlight/Objects/Specific/Medical/implants.rsi
@@ -413,13 +410,13 @@
   recipeUnlocks:
     - ImplantCaseThermal
   technologyPrerequisites:
-    - CyberEyeNightVision
+    - scp_CyberEyeNightVision
   radioChannels:
   - Security
   - Medical
 
 - type: technology
-  id: AdvancedImplantsTech
+  id: scp_AdvancedImplantsTech
   name: research-technology-advanced-implants
   icon:
     sprite: _Sunrise/Entities/Objects/Implants/implants.rsi
@@ -435,13 +432,13 @@
     - ScramImplantProto # EMAG
   technologyPrerequisites:
     - scp_medicalImplantsTech
-    - SurgeryTechAdvanced
+    - scp_SurgeryTechAdvanced
   radioChannels:
   - Medical
   - Security
 
 - type: technology
-  id: LauncherSyringe
+  id: scp_LauncherSyringe
   name: research-technology-launcher-syringe
   icon:
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
@@ -457,7 +454,7 @@
   - Medical
 
 - type: technology
-  id: CloningSystems
+  id: scp_CloningSystems
   name: research-technology-cloning
   icon:
     sprite: Structures/Machines/cloning.rsi

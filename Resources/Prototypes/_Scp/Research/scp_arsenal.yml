@@ -1,6 +1,6 @@
 # Технологии от Санрайзов!
 - type: technology
-  id: SunriseFullMetalJacketAmmunition
+  id: scp_SunriseFullMetalJacketAmmunition
   name: research-technology-full-metal-jacket-ammunition
   icon:
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi
@@ -28,12 +28,12 @@
   - MagazineRifleFMJ
   - MagazineRifleHeavyFMJ
   technologyPrerequisites:
-  - NonlethalAmmunition
+  - scp_NonlethalAmmunition
   radioChannels:
   - Security
 
 - type: technology
-  id: ArmorPenetrationMunitions
+  id: scp_ArmorPenetrationMunitions
   name: research-technology-armor-penetration
   icon:
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi
@@ -64,7 +64,7 @@
   - Security
 
 - type: technology
-  id: Gygax
+  id: scp_Gygax
   name: research-technology-gygax
   icon:
     sprite: Objects/Specific/Mech/gygax.rsi
@@ -86,12 +86,12 @@
   - GygaxTargetingElectronics
   - WeaponMechCombatUltraRifle
   technologyPrerequisites:
-  - Ripley2
+  - scp_Ripley2
   radioChannels:
   - Security
 
 - type: technology
-  id: ExplosiveMechAmmunition
+  id: scp_ExplosiveMechAmmunition
   name: research-technology-explosive-mech-ammunition
   icon:
     sprite: Objects/Specific/Mech/mecha_equipment.rsi
@@ -104,12 +104,12 @@
   - WeaponMechCombatMissileRack8
   - WeaponMechCombatFlashbangLauncher
   technologyPrerequisites:
-  - ExplosiveTechnology
+  - scp_ExplosiveTechnology
   radioChannels:
   - Security
 
 - type: technology
-  id: Durand
+  id: scp_Durand
   name: research-technology-durand
   icon:
     sprite: Objects/Specific/Mech/durand.rsi
@@ -133,7 +133,7 @@
   - WeaponMechCombatShotgunIncendiary
   - PowerCageHigh
   technologyPrerequisites:
-  - Gygax
+  - scp_Gygax
   radioChannels:
   - Security
 
@@ -157,7 +157,7 @@
 #  - Security
 
 - type: technology
-  id: CombatEquipment
+  id: scp_CombatEquipment
   name: research-technology-combat-equipment
   icon:
     sprite: _Sunrise/Clothing/Shoes/magboots_combat.rsi
@@ -174,12 +174,12 @@
   - VestSecUpgradeRiot
   - VestSecUpgradeReflective
   technologyPrerequisites:
-  - AdvancedRiotControl
+  - scp_AdvancedRiotControl
   radioChannels:
   - Security
 
 - type: technology
-  id: AdvancedCombatEquipment
+  id: scp_AdvancedCombatEquipment
   name: research-technology-advanced-combat-equipment
   icon:
     sprite: _Sunrise/Clothing/OuterClothing/Vests/web_armor_sec.rsi
@@ -192,12 +192,12 @@
   - VestSecUpgradeBulletHeavy
   - VestSecUpgradeWeb
   technologyPrerequisites:
-  - CombatEquipment
+  - scp_CombatEquipment
   radioChannels:
   - Security
 
 - type: technology
-  id: MiliraEquipment
+  id: scp_MiliraEquipment
   name: research-technology-milira-equipment
   icon:
     sprite: _Sunrise/Clothing/OuterClothing/Armor/Milira/heavy.rsi
@@ -216,7 +216,7 @@
   - Security
 
 - type: technology
-  id: AdvancedSecBorgsCombatModules
+  id: scp_AdvancedSecBorgsCombatModules
   name: research-technology-advance-secborgs-combat
   icon:
     sprite: Objects/Specific/Robotics/borgmodule.rsi
@@ -231,7 +231,7 @@
   - Security
 
 - type: technology
-  id: ScanGateTechnology
+  id: scp_ScanGateTechnology
   name: research-technology-scan-gate
   icon:
     sprite: _Sunrise/Structures/Machines/scan_gate.rsi
@@ -250,7 +250,7 @@
 # Tier 1
 
 - type: technology
-  id: DraconicMunitions
+  id: scp_DraconicMunitions
   name: research-technology-draconic-munitions
   icon:
     sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
@@ -282,7 +282,7 @@
   - Security
 
 - type: technology
-  id: NonlethalAmmunition
+  id: scp_NonlethalAmmunition
   name: research-technology-nonlethal-ammunition
   icon:
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi
@@ -305,7 +305,7 @@
   - Security
 
 - type: technology
-  id: UraniumMunitions
+  id: scp_UraniumMunitions
   name: research-technology-uranium-munitions
   icon:
     sprite: _Scp/Objects/Materials/Sheets/other.rsi # Fire Edit
@@ -336,7 +336,7 @@
   - Security
 
 - type: technology
-  id: AdvancedRiotControl
+  id: scp_AdvancedRiotControl
   name: research-technology-advanced-riot-control
   icon:
     sprite: Objects/Weapons/Melee/truncheon.rsi
@@ -358,7 +358,7 @@
   - Security
 
 - type: technology
-  id: ExplosiveTechnology
+  id: scp_ExplosiveTechnology
   name: research-technology-explosive-technology
   icon:
     sprite: Objects/Devices/payload.rsi

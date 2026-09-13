@@ -1,7 +1,7 @@
 
 # Часть санрайзов
 - type: technology
-  id: Ripley2
+  id: scp_Ripley2
   name: research-technology-ripley-mkii
   icon:
     sprite: Objects/Specific/Mech/ripley.rsi
@@ -14,10 +14,10 @@
   - RipleyMKIIHarness
   - RipleyUpgradeKit
   technologyPrerequisites:
-  - RipleyAPLU
+  - scp_RipleyAPLU
 
 - type: technology
-  id: Clarke
+  id: scp_Clarke
   name: research-technology-clarke
   icon:
     sprite: Objects/Specific/Mech/clarke.rsi
@@ -36,10 +36,10 @@
   - ClarkePeripheralsElectronics
   - PowerCageMedium
   technologyPrerequisites:
-  - Ripley2
+  - scp_Ripley2
 
 - type: technology
-  id: BasicNVD
+  id: scp_BasicNVD
   name: research-technology-basic-nvd
   icon:
     sprite: _Sunrise/Clothing/Eyes/Glasses/nvd.rsi
@@ -52,7 +52,7 @@
   - BasicNVD
 
 - type: technology
-  id: Modsuits
+  id: scp_Modsuits
   name: research-technology-modsuits
   icon:
     sprite: _Sunrise/Modsuits/Backpack/Qillu/blueshield.rsi
@@ -68,7 +68,7 @@
 # Tier 1
 
 - type: technology
-  id: SalvageEquipment
+  id: scp_SalvageEquipment
   name: research-technology-salvage-equipment
   icon:
     sprite: Objects/Tools/handdrill.rsi
@@ -89,7 +89,7 @@
   - SunriseAdvancedSalvageMagnetMachineCircuitboard # Sunrise-Edit
 
 - type: technology
-  id: SpaceScanning
+  id: scp_SpaceScanning
   name: research-technology-space-scanning
   icon:
     sprite: Objects/Tools/handheld_mass_scanner.rsi
@@ -103,7 +103,7 @@
   - HandHeldMassScanner
 
 - type: technology
-  id: AdvancedPowercells
+  id: scp_AdvancedPowercells
   name: research-technology-advanced-powercells
   icon:
     sprite: Structures/Power/turbo_recharger.rsi
@@ -120,7 +120,7 @@
   - PowerCageMedium
 
 - type: technology
-  id: MechanicalCompression
+  id: scp_MechanicalCompression
   name: research-technology-mechanical-compression
   icon:
     sprite: Structures/Machines/flatpacker.rsi
@@ -133,7 +133,7 @@
   - FlatpackerMachineCircuitboard
 
 - type: technology
-  id: industrialEngineering
+  id: scp_industrialEngineering
   name: research-technology-industrial-engineering
   icon:
     sprite: Structures/Machines/protolathe_hypercon.rsi
@@ -149,7 +149,7 @@
   - SheetifierMachineCircuitboard
 
 - type: technology
-  id: PowerGeneration
+  id: scp_PowerGeneration
   name: research-technology-power-generation
   icon:
     sprite: Structures/Power/Generation/portable_generator.rsi
@@ -167,7 +167,7 @@
   - EmitterCircuitboard
 
 - type: technology
-  id: AtmosphericTech
+  id: scp_AtmosphericTech
   name: research-technology-atmospheric-tech
   icon:
     sprite: Structures/Piping/Atmospherics/thermomachine.rsi
@@ -181,7 +181,7 @@
   - GasRecyclerMachineCircuitboard
 
 - type: technology
-  id: RipleyAPLU
+  id: scp_RipleyAPLU
   name: research-technology-ripley-aplu
   icon:
     sprite: Objects/Specific/Mech/ripley.rsi
@@ -205,7 +205,7 @@
 # Tier 2
 
 - type: technology
-  id: Shuttlecraft
+  id: scp_Shuttlecraft
   name: research-technology-shuttlecraft
   icon:
     sprite: Structures/Shuttles/gyroscope.rsi
@@ -221,7 +221,7 @@
   - MiniGravityGeneratorCircuitboard
 
 - type: technology
-  id: AdvancedAtmospherics
+  id: scp_AdvancedAtmospherics
   name: research-technology-advanced-atmospherics
   icon:
     sprite: Objects/Devices/Holoprojectors/atmos.rsi
@@ -235,10 +235,10 @@
   - PortableScrubberMachineCircuitBoard
   - HolofanProjector
   technologyPrerequisites:
-  - AtmosphericTech
+  - scp_AtmosphericTech
 
 - type: technology
-  id: AdvancedToolsTechnology
+  id: scp_AdvancedToolsTechnology
   name: research-technology-advanced-tools
   icon:
     sprite: Objects/Tools/welder_experimental.rsi
@@ -256,7 +256,7 @@
     - FultonBeacon
 
 - type: technology
-  id: MassExcavation
+  id: scp_MassExcavation
   name: research-technology-excavation
   icon:
     sprite: Objects/Tools/handdrilldiamond.rsi
@@ -271,13 +271,13 @@
     - AdvancedMineralScannerEmpty
     - BorgModuleAdvancedMining
     - MechEquipmentDrillDiamond
-    - Mechscp_industrialPlasmaCutter # Sunrise-Add
+    - MechIndustrialPlasmaCutter # Sunrise-Add
     - WeaponPlasmaCutter # Sunrise-Add
 
 # Tier 3
 
 - type: technology
-  id: OptimizedMicrogalvanism
+  id: scp_OptimizedMicrogalvanism
   name: research-technology-optimized-microgalvanism
   icon:
     sprite: Objects/Power/power_cells.rsi
@@ -291,5 +291,5 @@
   - PowerCellHyper
   - SMESSuperExtendedMachineCircuitboard # Sunrise-Edit
   technologyPrerequisites:
-  - AdvancedPowercells
+  - scp_AdvancedPowercells
 
