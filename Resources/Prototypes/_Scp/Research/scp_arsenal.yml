@@ -139,22 +139,22 @@
 
 # Tier 2
 
-# Sunrise-TODO: Требует ребаланса с учетом новых типов боеприпасов
-#- type: technology
-#  id: ExtendedAmunitions
-#  name: research-technology-extended-amunitions
-#  discipline: scp_arsenal
-#  tier: 2
-#  cost: 12500
-#  recipeUnlocks:
-#  - BaseMagazinePistolCaselessRifleExtended
-#  - MagazinePPSH41Extended
-#  - MagazineMP5Extended
-#  - MagazineMP7Extended
-#  - MagazineRifleExtended
-#  - MagazineDragunovExtended
-#  radioChannels:
-#  - Security
+
+- type: technology
+  id: scp_ExtendedAmunitions
+  name: research-technology-extended-amunitions
+  discipline: scp_arsenal
+  tier: 2
+  cost: 12500
+  recipeUnlocks:
+  - BaseMagazinePistolCaselessRifleExtended
+  - MagazinePPSH41Extended
+  - MagazineMP5Extended
+  - MagazineMP7Extended
+  - MagazineRifleExtended
+  - MagazineDragunovExtended
+  radioChannels:
+  - Security
 
 - type: technology
   id: scp_CombatEquipment
@@ -168,7 +168,6 @@
   defaultToScpScale: 0.1
   recipeUnlocks:
   - ClothingShoesBootsMagCombat
-  #- ModularReceiverAuto
   - ClothingHeadHelmetPubg
   - VestSecUpgradeBullet
   - VestSecUpgradeRiot
@@ -348,7 +347,6 @@
   recipeUnlocks:
   - Truncheon
   - TelescopicShield
-  # - HoloprojectorSecurity #Fire-Station
   - WeaponDisablerSMG
   - FlareGunSecurityUpgrade # Sunrise-Add
   - VestSecUpgradePlate # Sunrise-Add
