@@ -10,40 +10,10 @@
     state: fab-idle
   discipline: scp_experimental
   tier: 3
-  cost: 15000
+  cost: 7500
   defaultToScpScale: 0.3 # Fire Edit
   recipeUnlocks:
   - ExosuitFabricatorHyperConvectionMachineCircuitboard
-  technologyPrerequisites:
-  - scp_BasicRobotics
-  - scp_IndustrialEngineering
-  - scp_Durand
-
-- type: technology
-  id: scp_Phazon
-  name: research-technology-phazon
-  icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
-    state: phazon
-  discipline: scp_experimental
-  tier: 3
-  cost: 20000
-  defaultToScpScale: 0.1
-  recipeUnlocks:
-  - MechPhasicScanningModule
-  - PhazonHarness
-  - PhazonArmor
-  - PhazonHead
-  - PhazonLArm
-  - PhazonLLeg
-  - PhazonRArm
-  - PhazonRLeg
-  - PhazonCentralElectronics
-  - PhazonPeripheralsElectronics
-  - PhazonTargetingElectronics
-  technologyPrerequisites:
-  - scp_Durand
-
 # Часть оффов
 
 # Tier 1
@@ -56,7 +26,7 @@
     state: fab-idle
   discipline: scp_experimental
   tier: 1
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - ProximitySensor
@@ -74,7 +44,7 @@
     state: display
   discipline: scp_experimental
   tier: 1
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - NodeScanner
@@ -89,7 +59,7 @@
     state: display
   discipline: scp_experimental
   tier: 1
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.1 # Fire Edit
   recipeUnlocks:
   - TechDiskComputerCircuitboard
@@ -102,7 +72,7 @@
     state: icon
   discipline: scp_experimental
   tier: 1
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.1
   recipeUnlocks:
   - ClothingShoesBootsMagSci
@@ -119,7 +89,7 @@
     state: icon
   discipline: scp_experimental
   tier: 2
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.1
   recipeUnlocks:
   - ArtifactCrusherMachineCircuitboard
@@ -132,7 +102,7 @@
     state: base
   discipline: scp_experimental
   tier: 2
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.1
   recipeUnlocks:
   - WeaponParticleDecelerator
@@ -146,7 +116,7 @@
     state: base
   discipline: scp_experimental
   tier: 2
-  cost: 10000
+  cost: 5000
   defaultToScpScale: 0.1
   recipeUnlocks:
     - WeaponForceGun

@@ -11,7 +11,7 @@
     state: icon
   discipline: scp_civilianservices
   tier: 1
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
     - SlopDispenserMachineCircuitboard
@@ -28,7 +28,7 @@
     state: seedextractor
   discipline: scp_civilianservices
   tier: 1
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - SeedExtractorMachineCircuitboard
@@ -43,7 +43,7 @@
     state: cameracase
   discipline: scp_civilianservices
   tier: 1
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - SurveillanceCameraRouterCircuitboard
@@ -63,7 +63,7 @@
     state: television
   discipline: scp_civilianservices
   tier: 1
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
     - ComputerTelevisionCircuitboard
@@ -86,7 +86,7 @@
     state: display
   discipline: scp_civilianservices
   tier: 1
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - FatExtractorMachineCircuitboard
@@ -103,7 +103,7 @@
     state: astroice
   discipline: scp_civilianservices
   tier: 2
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - FauxTileAstroGrass
@@ -126,7 +126,7 @@
     state: advmop
   discipline: scp_civilianservices
   tier: 2
-  cost: 10000
+  cost: 5000
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - AdvMopItem
@@ -143,7 +143,7 @@
     state: icon
   discipline: scp_civilianservices
   tier: 2
-  cost: 10000
+  cost: 5000
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - WeaponSprayNozzle

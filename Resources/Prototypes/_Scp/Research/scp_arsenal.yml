@@ -7,7 +7,7 @@
     state: base
   discipline: scp_arsenal
   tier: 2
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.1
   recipeUnlocks:
   - MagazineBoxLightRifleFMJ
@@ -40,7 +40,7 @@
     state: ap
   discipline: scp_arsenal
   tier: 2
-  cost: 12000
+  cost: 6000
   defaultToScpScale: 0.1
   recipeUnlocks:
   - SpeedLoaderMagnumAP
@@ -71,7 +71,7 @@
     state: gygax
   discipline: scp_arsenal
   tier: 2
-  cost: 12000
+  cost: 6000
   defaultToScpScale: 0.3
   recipeUnlocks:
   - GygaxHarness
@@ -98,7 +98,7 @@
     state: mecha_missilerack
   discipline: scp_arsenal
   tier: 3
-  cost: 15000
+  cost: 7500
   defaultToScpScale: 0.2
   recipeUnlocks:
   - WeaponMechCombatMissileRack8
@@ -116,7 +116,7 @@
     state: base
   discipline: scp_arsenal
   tier: 3
-  cost: 13000
+  cost: 7500
   defaultToScpScale: 0.3
   recipeUnlocks:
   - DurandHarness
@@ -145,7 +145,7 @@
   name: research-technology-extended-amunitions
   discipline: scp_arsenal
   tier: 2
-  cost: 12500
+  cost: 7500
   recipeUnlocks:
   - BaseMagazinePistolCaselessRifleExtended
   - MagazinePPSH41Extended
@@ -164,7 +164,7 @@
     state: icon
   discipline: scp_arsenal
   tier: 2
-  cost: 12500
+  cost: 7500
   defaultToScpScale: 0.1
   recipeUnlocks:
   - ClothingShoesBootsMagCombat
@@ -185,7 +185,7 @@
     state: icon
   discipline: scp_arsenal
   tier: 3
-  cost: 10000
+  cost: 5000
   defaultToScpScale: 0.1
   recipeUnlocks:
   - VestSecUpgradeBulletHeavy
@@ -203,7 +203,7 @@
     state: icon
   discipline: scp_arsenal
   tier: 2
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.2
   recipeUnlocks:
   - ClothingOuterArmorMiliraLight
@@ -222,7 +222,7 @@
     state: security
   discipline: scp_arsenal
   tier: 2
-  cost: 10000
+  cost: 5000
   defaultToScpScale: 0.1
   recipeUnlocks:
   - BorgModuleAdvancedCombat
@@ -256,7 +256,7 @@
     state: incendiarydisplay
   discipline: scp_arsenal
   tier: 1
-  cost: 10000
+  cost: 5000
   defaultToScpScale: 0.1 # Fire Edit
   recipeUnlocks:
   - BoxShotgunIncendiary
@@ -311,7 +311,7 @@
     state: uranium
   discipline: scp_arsenal
   tier: 1
-  cost: 7500
+  cost: 4500
   defaultToScpScale: 0.3 # Fire Edit
   recipeUnlocks:
   - MagazineRifleUranium
@@ -342,7 +342,7 @@
     state: icon
   discipline: scp_arsenal
   tier: 1
-  cost: 8000
+  cost: 4000
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
   - Truncheon
@@ -363,7 +363,7 @@
     state: payload-explosive-armed
   discipline: scp_arsenal
   tier: 1
-  cost: 10000
+  cost: 2500
   defaultToScpScale: 0.1 # Fire Edit
   recipeUnlocks:
   - SignallerAdvanced
@@ -384,7 +384,7 @@
     state: icon
   discipline: scp_arsenal
   tier: 1
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.1 # Fire Edit
   recipeUnlocks:
   - ClothingBackpackElectropack

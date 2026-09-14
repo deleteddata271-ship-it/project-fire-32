@@ -8,7 +8,7 @@
     state: ripleymkii
   discipline: scp_industrial
   tier: 2
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.1
   recipeUnlocks:
   - RipleyMKIIHarness
@@ -24,7 +24,7 @@
     state: clarke
   discipline: scp_industrial
   tier: 2
-  cost: 9000
+  cost: 45000
   defaultToScpScale: 0.1
   recipeUnlocks:
   - ClarkeHarness
@@ -50,19 +50,6 @@
   defaultToScpScale: 0.1
   recipeUnlocks:
   - BasicNVD
-
-- type: technology
-  id: scp_Modsuits
-  name: research-technology-modsuits
-  icon:
-    sprite: _Sunrise/Modsuits/Backpack/Qillu/blueshield.rsi
-    state: icon
-  discipline: scp_industrial
-  tier: 3
-  cost: 10000
-  defaultToScpScale: 0.1
-  recipeUnlocks:
-  - ModsuitCore
 # часть оффов
 
 # Tier 1

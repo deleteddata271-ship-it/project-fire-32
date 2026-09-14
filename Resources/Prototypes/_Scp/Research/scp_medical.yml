@@ -8,7 +8,7 @@
     state: scalpel
   discipline: scp_medical
   tier: 1
-  cost: 4000
+  cost: 2000
   defaultToScpScale: 0.0 # Fire Edit
   recipeUnlocks:
     - BoneSetter
@@ -28,7 +28,7 @@
     state: icon
   discipline: scp_medical
   tier: 1
-  cost: 4000
+  cost: 2000
   defaultToScpScale: 0.0
   recipeUnlocks:
     - LeftArmCyber
@@ -45,7 +45,7 @@
     state: implanter0
   discipline: scp_medical
   tier: 2
-  cost: 8000
+  cost: 4000
   defaultToScpScale: 0.0
   recipeUnlocks:
   - ImplanterExtractor
@@ -58,7 +58,7 @@
     state: icon
   discipline: scp_medical
   tier: 2
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.1
   recipeUnlocks:
   - MedicalAssemblerMachineCircuitboard
@@ -72,7 +72,7 @@
     state: advanced
   discipline: scp_medical
   tier: 2
-  cost: 7000
+  cost: 3000
   defaultToScpScale: 0.1
   recipeUnlocks:
     - Drill
@@ -92,7 +92,7 @@
     state: implanter0
   discipline: scp_medical
   tier: 2
-  cost: 9000
+  cost: 4500
   defaultToScpScale: 0.1
   recipeUnlocks:
     - DnaInjector
@@ -108,7 +108,7 @@
     state: scanner
   discipline: scp_medical
   tier: 2
-  cost: 9000
+  cost: 4500
   defaultToScpScale: 0.0
   recipeUnlocks:
     - HandheldEmergencyCrewMonitor
@@ -123,7 +123,7 @@
     state: eye_implant_welding
   discipline: scp_medical
   tier: 2
-  cost: 10000
+  cost: 5000
   defaultToScpScale: 0.1
   recipeUnlocks:
     - ImplantCaseImplantWelding
@@ -144,7 +144,7 @@
     state: inject_implant_blue
   discipline: scp_medical
   tier: 2
-  cost: 9000
+  cost: 3500
   defaultToScpScale: 0.1
   recipeUnlocks:
     - SadTromboneImplant
@@ -166,7 +166,7 @@
     state: icon
   discipline: scp_medical
   tier: 2
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.0
   recipeUnlocks:
   - StasisBedMachineCircuitboard
@@ -184,7 +184,7 @@
     state: medical
   discipline: scp_medical
   tier: 2
-  cost: 5000
+  cost: 2500
   defaultToScpScale: 0.1
   recipeUnlocks:
   - BorgModuleAdvancedChemical
@@ -199,7 +199,7 @@
     state: cyber-hand-left
   discipline: scp_medical
   tier: 2
-  cost: 14000
+  cost: 7000
   defaultToScpScale: 0.1
   recipeUnlocks:
     - ImplantCaseReaper
@@ -220,7 +220,7 @@
     state: cyber-hand-left
   discipline: scp_medical
   tier: 2
-  cost: 6500
+  cost: 2500
   defaultToScpScale: 0.1
   recipeUnlocks:
     - ImplantCaseAtmos
@@ -258,7 +258,7 @@
     state: icon
   discipline: scp_medical
   tier: 2
-  cost: 8000
+  cost: 4000
   defaultToScpScale: 0.1
   recipeUnlocks:
     - DefibrillatorCompact
@@ -275,7 +275,7 @@
     state: icon
   discipline: scp_medical
   tier: 2
-  cost: 15000
+  cost: 7500
   defaultToScpScale: 0.1
   recipeUnlocks:
     - AdvancedDefibrillatorCompact
@@ -314,7 +314,7 @@
     state: open
   discipline: scp_medical
   tier: 3
-  cost: 12000
+  cost: 6000
   defaultToScpScale: 0.1
   recipeUnlocks:
   - InterrogatorMachineCircuitboard
@@ -329,7 +329,7 @@
     state: mender
   discipline: scp_medical
   tier: 3
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.2
   recipeUnlocks:
   - AutoMenderBrute
@@ -366,7 +366,7 @@
     state: cybermantisbladesec
   discipline: scp_medical
   tier: 3
-  cost: 8000
+  cost: 4000
   defaultToScpScale: 0.2
   recipeUnlocks:
     - ImplantCaseMantisBladeMaxGuard
@@ -387,7 +387,7 @@
     state: eyes_night
   discipline: scp_medical
   tier: 3
-  cost: 7500
+  cost: 3500
   defaultToScpScale: 0.2
   recipeUnlocks:
     - ImplantCaseNightVision
@@ -405,7 +405,7 @@
     state: eyes_thermal
   discipline: scp_medical
   tier: 3
-  cost: 8500
+  cost: 4500
   defaultToScpScale: 0.2
   recipeUnlocks:
     - ImplantCaseThermal
@@ -423,7 +423,7 @@
     state: reviver_implant
   discipline: scp_medical
   tier: 3
-  cost: 12000
+  cost: 6000
   defaultToScpScale: 0.2
   recipeUnlocks:
     - ReviverImplant
@@ -445,7 +445,7 @@
     state: syringe_gun
   discipline: scp_medical
   tier: 3
-  cost: 10000
+  cost: 5000
   defaultToScpScale: 0.2
   recipeUnlocks:
   - LauncherSyringe
@@ -461,7 +461,7 @@
     state: pod_0
   discipline: scp_medical
   tier: 3
-  cost: 10000
+  cost: 5000
   recipeUnlocks:
   - CloningConsoleComputerCircuitboard
   - CloningPodMachineCircuitboard
