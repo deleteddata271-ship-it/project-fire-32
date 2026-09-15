@@ -37,7 +37,6 @@
   - type: WiresPanel
   - type: WiresVisuals
   - type: Machine
-    board: ResearchAndDevelopmentServerMachineCircuitboard
   - type: Destructible
     thresholds:
     - trigger:
@@ -79,7 +78,7 @@
     - Science
   # Sunrise-Start
   - type: Item
-    sprite: _Sunrise/Structures/Machines/server.rsi
+    sprite: _Scp/Structures/Machines/server.rsi
     size: Ginormous
   - type: DamageOtherOnHit
     damage:

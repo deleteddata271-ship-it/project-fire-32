@@ -139,23 +139,6 @@
 
 # Tier 2
 
-
-- type: technology
-  id: scp_ExtendedAmunitions
-  name: research-technology-extended-amunitions
-  discipline: scp_arsenal
-  tier: 2
-  cost: 7500
-  recipeUnlocks:
-  - BaseMagazinePistolCaselessRifleExtended
-  - MagazinePPSH41Extended
-  - MagazineMP5Extended
-  - MagazineMP7Extended
-  - MagazineRifleExtended
-  - MagazineDragunovExtended
-  radioChannels:
-  - Security
-
 - type: technology
   id: scp_CombatEquipment
   name: research-technology-combat-equipment
