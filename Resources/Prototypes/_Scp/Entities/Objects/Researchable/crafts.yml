@@ -128,6 +128,6 @@
   materials:
     Steel: 10000
     Glass: 2000
-    Gold: 60
-    Silver: 60
-    Uranium: 60
+    Gold: 150
+    Silver: 150
+    Uranium: 150
