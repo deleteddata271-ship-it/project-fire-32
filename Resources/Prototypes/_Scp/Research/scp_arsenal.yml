@@ -360,7 +360,7 @@
   - EmptyDetonator
 
 - type: technology
-  id: SpecialMeans
+  id: scp_SpecialMeans
   name: research-technology-special-means
   icon:
     sprite: Clothing/Back/Backpacks/electropack.rsi
