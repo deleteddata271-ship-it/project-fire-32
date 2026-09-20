@@ -138,7 +138,7 @@
 
 - type: technology
   id: scp_medicalImplantsTech
-  name: research-technology-medical-implants
+  name: research-technology-biochemical-implants
   icon:
     sprite: _Sunrise/Entities/Objects/Implants/implants.rsi
     state: inject_implant_blue
@@ -160,7 +160,7 @@
 # Sunrise, moved from civilian to medical. Ave Starlight!
 - type: technology
   id: scp_medicalStasis
-  name: research-technology-medical-stasis
+  name: research-technology-biochemical-stasis
   icon:
     sprite: Structures/Machines/stasis_bed.rsi
     state: icon
