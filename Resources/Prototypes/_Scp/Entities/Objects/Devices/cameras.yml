@@ -19,3 +19,27 @@
   - type: GuideHelp
     guides:
     - ScpResearchAdvanced
+
+- type: entity
+  parent: BaseItem
+  id: scp_BasePortableSurveillanceCameraMonitor
+  name: portable camera monitor
+  description: Allows you to monitor the crew from anywhere.
+  components:
+  - type: SurveillanceCameraMonitor
+  - type: Sprite
+    sprite: _Scp/Objects/Tools/scp_monitor.rsi
+    state: icon
+  - type: ActivatableUI
+    key: enum.SurveillanceCameraMonitorUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SurveillanceCameraMonitorUiKey.Key:
+        type: SurveillanceCameraMonitorBoundUserInterface
+  - type: DeviceNetwork
+    deviceNetId: Wired
+    receiveFrequencyId: SurveillanceCamera
+    transmitFrequencyId: SurveillanceCamera
+  - type: WiredNetworkConnection
+  - type: Appearance
+

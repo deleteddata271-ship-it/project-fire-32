@@ -3031,4 +3031,6 @@ Scp268: null # Временно отключён из-за сломанност�
 
 # замена оригинального сервера на сервера с собственными исследованиями
 ResearchAndDevelopmentServer: SCPResearchServer
+# замена всей сватки на противоударную броню
+ClothingOuterArmorSWAT: ClothingOuterArmorRiot
 # Fire added end
