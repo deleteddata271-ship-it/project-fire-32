@@ -23,8 +23,7 @@
 - type: entity
   parent: BaseItem
   id: scp_BasePortableSurveillanceCameraMonitor
-  name: portable camera monitor
-  description: Allows you to monitor the crew from anywhere.
+  name: scp_BasePortableSurveillanceCameraMonitor
   components:
   - type: SurveillanceCameraMonitor
   - type: Sprite

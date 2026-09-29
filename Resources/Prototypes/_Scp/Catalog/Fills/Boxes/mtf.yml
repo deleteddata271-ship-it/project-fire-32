@@ -44,7 +44,7 @@
     - 0,0,4,3
   - type: StorageFill
     contents:
-    - id: PortableSurveillanceCameraMonitorUnpowered
+    - id: scp_BasePortableSurveillanceCameraMonitor
     - id: HandheldCriminalRecordsMonitorUnpowered
     - id: PinpointerUniversal
     - id: HandHeldMassScanner
