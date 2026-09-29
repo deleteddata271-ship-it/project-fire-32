@@ -32,7 +32,6 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorSWAT
-  categories: [ HideSpawnMenu ] # Fire edit
   name: SWAT armor
   description: NT's unsuccessful attempt to create universal and expensive protection. It provides excellent protection against many types of damage, but it also slows down extremely much.
   components:
