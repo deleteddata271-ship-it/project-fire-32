@@ -134,10 +134,9 @@
 
 - type: latheRecipe
   id: SwatArmorRecipe
-  category: Weapons
   completetime: 10
   result: ClothingOuterArmorSWAT
   materials:
-    Plasteel: 3000
-    Steel: 6000
-    Plastic: 6000
+    Plasteel: 1000
+    Steel: 3000
+    Plastic: 3000
