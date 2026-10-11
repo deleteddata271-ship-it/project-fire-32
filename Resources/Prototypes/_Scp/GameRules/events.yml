@@ -112,6 +112,46 @@
   - type: DynamicRuleCost
     cost: 50
 
+- type: entity
+  id: SmallScpChaosRaid
+  parent: BaseChaosRaidRule
+  components:
+  - type: StationEvent
+    earliestStart: 60
+    weight: 10
+    duration: null
+    minimumPlayers: 30
+  - type: LoadMapRule
+    gridPath: /Maps/_Scp/Shuttles/ChaosShuttle.yml
+  - type: AntagRandomObjectives
+    maxDifficulty: 3
+    sets:
+    - groups: ChaosRaidObjectiveGroups
+      maxPicks: 4
+  - type: AntagSelection
+    definitions:
+    - spawnerPrototype: SpawnPointChaosRaiderFight
+      min: 3
+      max: 3
+      pickPlayer: false
+      startingGear: ChaosGear
+      roleLoadout:
+        - RoleSurvivalNukie
+  - type: GhostPanelAntagonistMarker
+    name: ghost-panel-antagonist-SmallScpChaosRaid-name
+    description: ghost-panel-antagonist-SmallScpChaosRaid-description
+    priority: 20
+  - type: RandomMetadata
+    nameSegments:
+    - NamesChaos
+    - LastNamesChaos
+    nameFormat: name-format-ert
+  - type: NpcFactionMember
+    factions:
+    - Chaos
+    mindRoles:
+      - MindRoleChaosRaiderFighter
+
 - type: entityTable
   id: ScpVanillaEventsTable
   table: !type:AllSelector
@@ -137,3 +177,4 @@
     - id: AirlockManEater
     - id: SpawnScp133Paper
     - id: SpawnScp3199Egg
+    - id: SmallScpChaosRaid
