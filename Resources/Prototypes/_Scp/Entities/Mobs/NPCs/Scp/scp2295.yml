@@ -32,7 +32,6 @@
     baseWalkSpeed: 2
     baseSprintSpeed: 3
   - type: Damageable
-    damageContainer: Biological
     damageModifierSet: Scale
   - type: GhostPanelAntagonistMarker
     name: ghost-panel-antagonist-scp-minor-name
@@ -108,7 +107,7 @@
     - ActionScp2295Fiber
     - ActionOpenStorageImplant
   - type: RotationVisuals
-    defaultRotation: 90
+    defaultRotation: 0
     horizontalRotation: 90
   - type: StandingState
   - type: Storage
