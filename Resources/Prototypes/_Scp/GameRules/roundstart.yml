@@ -109,7 +109,7 @@
   parent: BaseChaosRaidRule
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 25
   - type: LoadMapRule
     mapPath: /Maps/_Scp/Nonstation/ChaosPlanet.yml
   - type: ChaosRaidRule
@@ -152,7 +152,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 25
   - type: ChaosSpyRule
     addSleepSpies: true
   - type: AntagRandomObjectives
@@ -176,7 +176,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 25
   - type: ChaosSpyRule
     addSleepSpies: true
   - type: AntagRandomObjectives
@@ -199,7 +199,7 @@
   id: ScpChaosSleepSpy
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 25
   - type: ChaosSleepSpyRule
   - type: AntagSelection
     selectionTime: RuleStarted
