@@ -115,7 +115,7 @@
     duration: null
     minimumPlayers: 30
   - type: LoadMapRule
-    mapPath: Maps/_Scp/Nonstation/ShuttleChaosPlanet.yml
+    mapPath: /Maps/_Scp/Nonstation/ShuttleChaosPlanet.yml
   - type: AntagRandomObjectives
     sets:
     - groups: ChaosRaidObjectiveGroups
@@ -128,8 +128,6 @@
       range:
         min: 3
         max: 3
-      mindRoles:
-        - MindRoleChaosRaiderFighter
 
 - type: entityTable
   id: ScpVanillaEventsTable
