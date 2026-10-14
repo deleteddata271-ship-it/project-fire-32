@@ -1,2 +1,2 @@
-ent-scpBasePortableSurveillanceCameraMonitor = портативный монитор камер
+ent-ScpBasePortableSurveillanceCameraMonitor = портативный монитор камер
     .desc = портативный монитор с доступом в сеть камер учреждения. И почему на каждом устройстве фонда есть их символ?

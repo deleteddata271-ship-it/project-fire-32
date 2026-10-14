@@ -22,8 +22,8 @@
 
 - type: entity
   parent: BaseItem
-  id: scpBasePortableSurveillanceCameraMonitor
-  name: scpBasePortableSurveillanceCameraMonitor
+  id: ScpBasePortableSurveillanceCameraMonitor
+  name: ScpBasePortableSurveillanceCameraMonitor
   components:
   - type: SurveillanceCameraMonitor
   - type: Sprite
