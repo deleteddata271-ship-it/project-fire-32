@@ -113,7 +113,7 @@
     cost: 50
 
 - type: entity
-  id: SmallScpChaosRaid
+  id: ScpSmallChaosRaid
   parent: BaseChaosRaidRule
   components:
   - type: ChaosRaidRule
@@ -138,21 +138,22 @@
       startingGear: ChaosGear
       roleLoadout:
         - RoleSurvivalNukie
-    - type: ShowMessageOnSpawn
-      message: chaos-raid-rules-window
-    - type: GhostPanelAntagonistMarker
-      name: ghost-panel-antagonist-chaos-raider-fighter-name
-      description: ghost-panel-antagonist-chaos-raider-fighter-description
-      priority: 10
-    - type: MobChaosRaider
-    - type: RandomMetadata
-      nameSegments:
-      - NamesChaos
-      - LastNamesChaos
-      nameFormat: name-format-ert
-    - type: NpcFactionMember
-      factions:
-      - Chaos
+      components:
+      - type: ShowMessageOnSpawn
+        message: chaos-raid-rules-window
+      - type: GhostPanelAntagonistMarker
+        name: ghost-panel-antagonist-chaos-raider-fighter-name
+        description: ghost-panel-antagonist-chaos-raider-fighter-description
+        priority: 10
+      - type: MobChaosRaider
+      - type: RandomMetadata
+        nameSegments:
+        - NamesChaos
+        - LastNamesChaos
+        nameFormat: name-format-ert
+      - type: NpcFactionMember
+        factions:
+        - Chaos
       mindRoles:
         - MindRoleChaosRaiderFighter
 
@@ -181,4 +182,4 @@
     - id: AirlockManEater
     - id: SpawnScp133Paper
     - id: SpawnScp3199Egg
-    - id: SmallScpChaosRaid
+    - id: ScpSmallChaosRaid
