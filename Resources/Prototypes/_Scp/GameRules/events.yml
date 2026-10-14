@@ -130,30 +130,12 @@
       maxPicks: 4
     maxDifficulty: 3
   - type: AntagSelection
-    definitions:
-    - spawnerPrototype: SpawnPointChaosRaiderFighter
-      min: 3
-      max: 3
-      pickPlayer: false
-      startingGear: ChaosGear
-      roleLoadout:
-        - RoleSurvivalNukie
-      components:
-      - type: ShowMessageOnSpawn
-        message: chaos-raid-rules-window
-      - type: GhostPanelAntagonistMarker
-        name: ghost-panel-antagonist-chaos-raider-fighter-name
-        description: ghost-panel-antagonist-chaos-raider-fighter-description
-        priority: 10
-      - type: MobChaosRaider
-      - type: RandomMetadata
-        nameSegments:
-        - NamesChaos
-        - LastNamesChaos
-        nameFormat: name-format-ert
-      - type: NpcFactionMember
-        factions:
-        - Chaos
+    antags:
+    - !type:LinearAntagCount
+      proto: ChaosRaiderFighter
+      range:
+        min: 3
+        max: 3
       mindRoles:
         - MindRoleChaosRaiderFighter
 
